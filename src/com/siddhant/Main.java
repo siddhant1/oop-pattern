@@ -1,4 +1,5 @@
 package com.siddhant;
+import com.siddhant.iterator.IteratorTest;
 import com.siddhant.memento.MementoTest;
 import com.siddhant.state.StateTest;
 
@@ -15,6 +16,7 @@ public class Main {
 
        new MementoTest().main();
        new StateTest().main();
+       new IteratorTest().main();
 
     }
 
