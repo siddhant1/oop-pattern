@@ -1,5 +1,6 @@
 package com.siddhant;
 import com.siddhant.memento.MementoTest;
+import com.siddhant.state.StateTest;
 
 public class Main {
     public static void main(String args[]){
@@ -13,6 +14,7 @@ public class Main {
        System.out.println(calc.getNewSlab());
 
        new MementoTest().main();
+       new StateTest().main();
 
     }
 
